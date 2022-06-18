@@ -23,13 +23,13 @@ header .div2{
  display: inline-block;
 }
 header .div1{
- width: 50%;
+ width: 48%;
 }
 header .div2{
- width: 49%;
+ width: 51%;
 }
 header .div1 #main{
- width: 45%;
+ width: 48%;
 }
 header .div1 #main{
  margin-left: 80px;
