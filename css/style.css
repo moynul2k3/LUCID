@@ -1,1 +1,159 @@
+*{
+ margin: 0;
+ padding: 0;
+}
+body{
+ font-size: 14px;
+ line-height: 24px;
+}
+h1,h2,h3,h4,h5,h6{
+ font-family: 'Source Sans Pro', sans-serif;
+}
+header{
+ background-image: url('../image/lucid_onepage_source.png');
+ background-size: cover;
+ position: absolute;
+ background-repeat: no-repeat;
+ height: 100vh;
+ width: 100%;
+}
+header .div1,
+header .div2{
+ height: 380px;
+ display: inline-block;
+}
+header .div1{
+ width: 50%;
+}
+header .div2{
+ width: 49%;
+}
+header .div1 #main{
+ width: 45%;
+}
+header .div1 #main{
+ margin-left: 80px;
+ margin-top: 30px;
+ position: absolute;
+}
+header .div2 #link{
+ height: 30px;
+ margin-right: 80px;
+ margin-top: 30px;
+ position: absolute;
+}
+header .div1 #main h5{
+ font-size: 14px;
+ font-weight: bold;
+ text-transform: uppercase;
+ letter-spacing: 3px;
+ line-height: 30px;
+ color: rgb(0,141,212);
+ margin-top: 80px;
+}
+header .div1 #main h2{
+ margin-top: 10px;
+ font-size: 42px;
+ text-transform: capitalize;
+ line-height: 45px;
+ color: #fff;
+ font-weight: 600;
+}
+header .div1 #main #discrimination{
+ margin-top: 20px;
+ font-size: 19px;
+ font-weight: 400;
+ line-height: 24px;
+ color: #999999;
+}
+header .div1 #main #button{
+ height: 40px;
+ width: 100%;
+ margin-top: 20px;
+ display: inline-block;
+}
+header .div1 #main #button button{
+ font-size: 16px;
+ margin-right: 10px;
+ color: #008ed6;
+ background-color: transparent;
+ border:2px solid #008ed6;
+ border-radius: 3px;
+ padding: 10px 35px;
+ transition: 1s;
+}
+header .div1 #main #button button:hover{
+ font-size: 16px;
+ color: #fff;
+ background-color: #008ed6;
+ border:2px solid #008ed6;
+ padding: 10px 35px;
+ border-radius: 3px;
+}
+
+header .div2 #link a{
+ padding-bottom: 5px;
+ font-size: 14px;
+ text-transform: uppercase;
+ color:#fff;
+ text-decoration: none;
+ margin-right: 5px;
+ border: none;
+}
+header .div2 #link .home,
+header .div2 #link a:hover{
+ height: 80px;
+ width: 100%;
+ background-image: url('../image/bottom.png');
+ background-position: bottom;
+ background-repeat: no-repeat;
+}
+
+
+
+.features{
+ height: 200px;
+ width: 100%;
+ margin-top: 500px;
+ position: absolute;
+}
+.features #title{
+ width: 100%;
+ padding: 20px 0;
+ text-align: center;
+}
+.features #title h5{
+ font-size: 14px;
+ font-weight: 600;
+ line-height: 24px;
+ text-transform: uppercase;
+ color:#008ed6
+}
+.features #title h1{
+ font-size: 28px;
+ font-weight: 600;
+ line-height: 24px;
+}
+
+.features #container{
+ margin-left: 2%;
+ width: 98%;
+ display: inline-block;
+}
+.features #container div{
+ height: 300px;
+ width: 24%;
+ display: inline-block;
+}
+.features #container div img{
+ height: 50px;
+ position: absolute;
+ margin: 0 9%;
+}
+.features #container div #main{
+ margin-top: 80px;
+ position: absolute;
+ text-align: center;
+ background-color: #ccc;
+}
 
