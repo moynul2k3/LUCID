@@ -23,23 +23,23 @@ header .div2{
  display: inline-block;
 }
 header .div1{
- width: 48%;
+ width: 50%;
 }
 header .div2{
- width: 55%;
+ width: 49%;
 }
 header .div1 #main{
- width: 48%;
+ width: 45%;
 }
 header .div1 #main{
  margin-left: 60px;
- margin-top: 20px;
+ margin-top: 30px;
  position: absolute;
 }
 header .div2 #link{
  height: 30px;
  margin-right: 60px;
- margin-top: 20px;
+ margin-top: 30px;
  position: absolute;
 }
 header .div1 #main h5{
@@ -49,7 +49,7 @@ header .div1 #main h5{
  letter-spacing: 3px;
  line-height: 30px;
  color: rgb(0,141,212);
- margin-top: 80px;
+ margin-top: 50px;
 }
 header .div1 #main h2{
  margin-top: 10px;
