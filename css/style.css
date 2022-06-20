@@ -72,23 +72,34 @@ header .div1 #main #button{
  margin-top: 20px;
  display: inline-block;
 }
-header .div1 #main #button button{
+header .div1 #main #button #btn1,
+header .div1 #main #button #btn2{
  font-size: 16px;
  margin-right: 10px;
- color: #008ed6;
- background-color: transparent;
- border:2px solid #008ed6;
  border-radius: 3px;
  padding: 10px 35px;
  transition: 1s;
 }
-header .div1 #main #button button:hover{
- font-size: 16px;
+header .div1 #main #button #btn1{
  color: #fff;
  background-color: #008ed6;
  border:2px solid #008ed6;
- padding: 10px 35px;
- border-radius: 3px;
+}
+header .div1 #main #button #btn1:hover{
+ color: #008ed6;
+ background-color: transparent;
+ border:2px solid #008ed6;
+}
+header .div1 #main #button #btn2{
+ color: #008ed6;
+ background-color: transparent;
+ border:2px solid #008ed6;
+}
+
+header .div1 #main #button #btn2:hover{
+ color: #fff;
+ background-color: #008ed6;
+ border:2px solid #008ed6;
 }
 
 header .div2 #link a{
