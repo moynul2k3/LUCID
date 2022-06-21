@@ -130,6 +130,7 @@ header .div2 #link a:hover{
  background-color: #05cdff;
  top: 0;
  right: 0;
+ position: fixed;
 }
 
 
