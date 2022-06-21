@@ -29,7 +29,7 @@ header .div2{
 }
 header .div1 #main #click{
  position: absolute;
- right: 30px;
+ left: 30px;
  top: 30px;
 }
 header .div1 #main{
