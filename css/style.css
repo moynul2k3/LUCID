@@ -303,7 +303,7 @@ header .div1 #main #logo{
 }
 header .div1 #main #click{
  position: absolute;
- top: -170px;
+ top: -160px;
  right: 30px;
  visibility: visible;
 }
