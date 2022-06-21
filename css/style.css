@@ -28,6 +28,7 @@ header .div2{
  width: 49%;
 }
 header .div1 #main #click{
+ height: 40px;
  right: 30px;
  top: 30px;
 }
