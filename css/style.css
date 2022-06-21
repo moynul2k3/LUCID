@@ -126,12 +126,12 @@ header .div2 #link a:hover{
 
 .sidebar{
  height: 100%;
- width: 100px;
+ width: 200px;
  background-color: #05cdff;
  top: 0;
  right: 0;
  position: fixed;
- visibility: hidden;
+ display: none;
 }
 
 
@@ -319,13 +319,8 @@ header .div1 #main #click{
  right: 30px;
  visibility: visible;
 }
-header .div1 #main #click:hover{
- height: 100%;
- width: 100px;
- background-color: #05cdff;
- top: 0;
- right: 0;
- position: fixed;
+header .div1 #main #click:hover .sidebar{
+ display: block;
 }
 header .div1 #main{
  width: 100%;
