@@ -27,13 +27,6 @@ header .div1{
 header .div2{
  width: 49%;
 }
-header .div1 #main #click{
- position: absolute;
- width: 40px;
- right: 30px;
- top: 30px;
- visibility: hidden;
-}
 header .div1 #main{
  width: 45%;
  margin-left: 60px;
@@ -123,8 +116,6 @@ header .div2 #link a:hover{
  background-position: bottom;
  background-repeat: no-repeat;
 }
-
-
 
 
 
@@ -300,23 +291,17 @@ header .div2 #link a:hover{
 header .div2 #link{
  display: none;
 }
-header .div1 #main #logo{
+header .div1 #main img{
  position: absolute;
  top: -170px;
  left: 30px;
 }
-header .div1 #main #click{
- position: absolute;
- top: -160px;
- right: 30px;
- visibility: visible;
-}
+
 header .div1 #main{
  width: 100%;
  margin: 200px auto;
  text-align: center;
 }
-
 
 
 
