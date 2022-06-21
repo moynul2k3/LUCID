@@ -124,15 +124,7 @@ header .div2 #link a:hover{
  background-repeat: no-repeat;
 }
 
-.sidebar{
- height: 100%;
- width: 200px;
- background-color: #05cdff;
- top: 0;
- right: 0;
- position: fixed;
- display: none;
-}
+
 
 
 
@@ -319,15 +311,58 @@ header .div1 #main #click{
  right: 30px;
  visibility: visible;
 }
-header .div1 #main #click:hover .sidebar{
- display: block;
-}
 header .div1 #main{
  width: 100%;
  margin: 200px auto;
  text-align: center;
 }
 
+
+
+
+.features{
+ margin-top: 30px;
+ height: 400px;
+ width: 100%;
+}
+.features #title{
+ width: 100%;
+ padding: 20px 0;
+ text-align: center;
+}
+.features #title h5{
+ font-size: 16px;
+ font-weight: 600;
+ line-height: 24px;
+ text-transform: uppercase;
+ color:#008ed6
+}
+.features #title h1{
+ font-size: 32px;
+ font-weight: 600;
+ line-height: 24px;
+}
+
+.features #container{
+ margin-left: 2%;
+ width: 98%;
+ display: inline-block;
+}
+.features #container div{
+ height: 300px;
+ width: 24%;
+ display: inline-block;
+}
+.features #container div img{
+ height: 50px;
+ position: absolute;
+ margin: 0 9%;
+}
+.features #container div #main{
+ margin-top: 80px;
+ position: absolute;
+ text-align: center;
+}
 
 
 
