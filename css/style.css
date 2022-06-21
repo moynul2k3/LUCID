@@ -32,6 +32,7 @@ header .div1 #main #click{
  width: 40px;
  right: 30px;
  top: 30px;
+ visibility: hidden;
 }
 header .div1 #main{
  width: 45%;
@@ -295,7 +296,12 @@ header .div2 #link a:hover{
 header .div2 #link{
  display: none;
 }
-header .div1 #main img{
+header .div1 #main #logo{
+ position: absolute;
+ top: -170px;
+ left: 30px;
+}
+header .div1 #main #click{
  position: absolute;
  top: -170px;
  left: 30px;
