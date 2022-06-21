@@ -320,9 +320,9 @@ header .div1 #main{
 
 
 
+
 .features{
- margin-top: 30px;
- height: 400px;
+ height: 1020px;
  width: 100%;
 }
 .features #title{
@@ -331,13 +331,14 @@ header .div1 #main{
  text-align: center;
 }
 .features #title h5{
- font-size: 16px;
+ font-size: 18px;
  font-weight: 600;
  line-height: 24px;
  text-transform: uppercase;
  color:#008ed6
 }
 .features #title h1{
+ margin-top: 10px;
  font-size: 32px;
  font-weight: 600;
  line-height: 24px;
@@ -346,24 +347,74 @@ header .div1 #main{
 .features #container{
  margin-left: 2%;
  width: 98%;
- display: inline-block;
 }
 .features #container div{
- height: 300px;
- width: 100%;
+ height: 200px;
+ width: 98%;
  display: inline-block;
 }
 .features #container div img{
  height: 70px;
  position: absolute;
- margin: 0 9%;
+ margin: 0 40%;
 }
 .features #container div #main{
  margin-top: 80px;
  position: absolute;
  text-align: center;
 }
+.features #container div #main p{
+ font-size: 17px;
+ color: #0bf;
+}
 
+
+
+
+.about{
+ height: 600px;
+ width: 100%;
+}
+.about div{
+ height: 100%;
+}
+.about #div1{
+ width: 40%;
+}
+.about #div2{
+ width: 55%;
+ position: absolute;
+}
+.about #div2 #title{
+ height: 180px;
+ width: 100%;
+}
+.about #div2 #title h5{
+ margin-top: 40px;
+ font-size: 14px;
+}
+.about #div2 #title h1{
+ font-size: 28px;
+}
+.about #div2 #title img{
+ margin-top: 20px;
+}
+.about #div2 p{
+ font-size: 14px;
+}
+
+
+
+
+.testimonials #div1{
+ height: 500px;
+ width: 50%;
+ position: absolute;
+}
+.testimonials #div1 #title{
+ height: 100px;
+ margin: 50px 0 0 30px;
+}
 
 
 }
