@@ -129,10 +129,10 @@ header .div2 #link a:hover{
 
 
 
-
 .features{
  height: 400px;
  width: 100%;
+ margin-top: 100px;
 }
 .features #title{
  width: 100%;
