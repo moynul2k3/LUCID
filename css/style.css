@@ -13,7 +13,7 @@ header{
  background-image: url('../image/lucid_onepage_source.png');
  background-size: cover;
  background-repeat: no-repeat;
- height: 100vh;
+ height: 500px;
  width: 100%;
 }
 header .div1,
@@ -22,15 +22,13 @@ header .div2{
  display: inline-block;
 }
 header .div1{
- width: 46%;
+ width: 50%;
 }
 header .div2{
- width: 53%;
+ width: 49%;
 }
 header .div1 #main{
  width: 45%;
-}
-header .div1 #main{
  margin-left: 60px;
  margin-top: 30px;
  position: absolute;
@@ -48,17 +46,17 @@ header .div1 #main h5{
  letter-spacing: 3px;
  line-height: 30px;
  color: rgb(0,141,212);
- margin-top: 80px;
+ margin-top: 50px;
 }
 header .div1 #main h2{
  margin-top: 10px;
- font-size: 42px;
+ font-size: 38px;
  text-transform: capitalize;
  line-height: 45px;
  color: #fff;
  font-weight: 600;
 }
-header .div1 #main #discrimination{
+header .div1 #main #discription{
  margin-top: 20px;
  font-size: 19px;
  font-weight: 400;
@@ -122,9 +120,8 @@ header .div2 #link a:hover{
 
 
 .features{
- height: 200px;
+ height: 400px;
  width: 100%;
- margin-top: 200px;
 }
 .features #title{
  width: 100%;
@@ -165,13 +162,145 @@ header .div2 #link a:hover{
  text-align: center;
 }
 
+
+
 .about{
+ height: 600px;
  width: 100%;
- margin-top: 250px;
 }
-.about #div1{
- width: 45%;
- background-color: #ccc;
+.about div{
+ height: 100%;
  display: inline-block;
 }
+.about #div1{
+ width: 55%;
+ background-image: url('../image/about-device.png');
+ background-repeat: no-repeat;
+ background-position: right;
+ background-position-y: 0;
+}
+.about #div2{
+ width: 44%;
+ position: absolute;
+}
+.about #div2 #title{
+ height: 200px;
+ width: 100%;
+}
+.about #div2 #title h5{
+ margin-top: 80px;
+ font-size: 14px;
+ font-weight: 600;
+ line-height: 24px;
+ text-transform: uppercase;
+ color:#008ed6;
+}
+.about #div2 #title h1{
+ font-size: 28px;
+ font-weight: 600;
+ line-height: 24px;
+ margin-top: 10px;
+}
+.about #div2 #title img{
+ margin-top: 20px;
+}
+.about #div2 p{
+ font-size: 14px;
+ line-height: 24px;
+ font-weight: 500px;
+ color: #999999;
+}
+.about #div2 #para{
+ height: 10px;
+ margin-top: 15px;
+ display: block;
+ padding: 10px 0;
+ font-size: 14px;
+ text-align: left;
+}
+.about #div2 #para span{
+ padding-left: 5px;
+}
 
+
+.testimonials{
+ height: 500px;
+ width: 100%;
+}
+.testimonials div{
+ height: 500px;
+ display: inline-block;
+}
+.testimonials #div1{
+ height: 500px;
+ width: 35%;
+ position: absolute;
+}
+.testimonials #div1 #title{
+ height: 100px;
+ margin: 80px 0 0 30px;
+}
+.testimonials #div1 #title h5{
+ margin-top: 80px;
+ font-size: 14px;
+ font-weight: 600;
+ line-height: 24px;
+ text-transform: uppercase;
+ color:#008ed6;
+}
+.testimonials #div1 #title h1{
+ font-size: 28px;
+ font-weight: 600;
+ line-height: 24px;
+ margin-top: 10px;
+}
+.testimonials #div1 p{
+ height: 100px;
+ font-size: 14px;
+ line-height: 24px;
+ font-weight: 500px;
+ color: #999999;
+ margin: 10px 0 0 30px;
+}
+.testimonials #div2{
+ width: 64%;
+ position: absolute;
+ right: 0;
+ background-image: url('../image/iphone.png');
+ background-repeat: no-repeat;
+ background-position: left;
+}
+
+
+
+
+
+
+
+@media only screen and (max-width:720px) {
+ header{
+ background-image: url('../image/about-device.png');
+ background-color: #000;
+ background-size: cover;
+ background-repeat: no-repeat;
+ height: 915px;
+ width: 100%;
+}
+header .div2 #link{
+ display: none;
+}
+header .div1 #main img{
+ position: absolute;
+ top: -170px;
+ left: 30px;
+}
+header .div1 #main{
+ width: 100%;
+ margin: 200px auto;
+ text-align: center;
+}
+
+
+
+
+}
