@@ -131,6 +131,7 @@ header .div2 #link a:hover{
  top: 0;
  right: 0;
  position: fixed;
+ visibility: hidden;
 }
 
 
@@ -317,6 +318,14 @@ header .div1 #main #click{
  top: -160px;
  right: 30px;
  visibility: visible;
+}
+header .div1 #main #click:hover{
+ height: 100%;
+ width: 100px;
+ background-color: #05cdff;
+ top: 0;
+ right: 0;
+ position: fixed;
 }
 header .div1 #main{
  width: 100%;
