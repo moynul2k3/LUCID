@@ -116,7 +116,7 @@ header .div2 #link a:hover{
  background-position: bottom;
  background-repeat: no-repeat;
 }
-header #click{
+header .div2 #click{
  width: 50px;
  height: 30px;
  right: 10px;
@@ -310,7 +310,7 @@ header .div1 #main{
  margin: 200px auto;
  text-align: center;
 }
-header #click{
+header .div2 #click{
  visibility: visible;
 }
 
