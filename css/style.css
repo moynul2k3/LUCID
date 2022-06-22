@@ -112,6 +112,7 @@ header .div2 #click{
  width: 100px;
  right: 30px;
  top: 30px;
+ position: absolute;
 }
 header .div2 #link .home,
 header .div2 #link a:hover{
