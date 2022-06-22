@@ -123,6 +123,7 @@ header #click{
  top: 30px;
  position: absolute;
  visibility: hidden;
+ background-color: red;
 }
 
 
