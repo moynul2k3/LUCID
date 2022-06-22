@@ -35,8 +35,8 @@ header .div1 #main{
 }
 header .div2 #link{
  height: 30px;
- margin-right: 60px;
- margin-top: 30px;
+ right: 60px;
+ top: 30px;
  position: absolute;
 }
 header .div1 #main h5{
