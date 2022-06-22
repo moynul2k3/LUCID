@@ -336,7 +336,6 @@ header .div1 #main{
 .features #container div{
  height: 200px;
  width: 98%;
- display: inline-block;
 }
 .features #container div img{
  height: 70px;
