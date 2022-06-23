@@ -289,7 +289,7 @@ header .div2 #click{
 
 @media only screen and (max-width:720px) {
  header{
- background-image: url('../image/about-device.png');
+ background-image: url('../image/bgimg.jpeg');
  background-color: #000;
  background-size: cover;
  background-repeat: no-repeat;
